@@ -5,11 +5,11 @@ Edge list : {0, 1}, {0, 2}, {1, 3}, {1, 4}, {2, 5}, {2, 6}, {3, 5}
 
 ## DFS
 Depth-First Search explores as far as possible along each branch before backtracking. A stack (either explicit or via recursion) is used to manage the traversal order.
-Iterative:
+- Iterative:
   1. Use a stack, mark the starting node as visited, and push it onto the stack.
   2. While the stack is not empty:
   3. Pop a node, process it, and push its unvisited neighbors.
-Recursive:
+- Recursive:
   1. Process the node, mark it as visited, and recurse into its unvisited neighbors.
 ### Result
 0 -> 1 -> 3 -> 5 -> 2 -> 6 -> 4
